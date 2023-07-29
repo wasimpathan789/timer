@@ -4,11 +4,11 @@ import Navbar from "./Navbar";
 
 const Project = () => {
   return (
-    <div className="projectContainer">
+    <div className="rootContainer">
       <Navbar />
-      <div className="projectWrapper">
-        <h1>safdasfd</h1>
-        <p>This is our new project</p>
+      <div className="rootWrapper">
+        <h3>Project details</h3>
+        {/* <Todo /> */}
       </div>
     </div>
   );

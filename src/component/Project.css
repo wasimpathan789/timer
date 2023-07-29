@@ -1,5 +1,7 @@
 .projectContainer {
-  width: 100%;
+  width: 98vw;
+  /* width: fit-content; */
+  height: 100vh;
   background-color: red;
 }
 
