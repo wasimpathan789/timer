@@ -1,0 +1,14 @@
+.rootContainer {
+  width: 100vw;
+  height: 100vh;
+}
+
+.rootWrapper {
+  padding: 30px 80px;
+}
+
+@media screen and (max-width: 1024px) {
+  .rootWrapper {
+    padding: 30px 20px;
+  }
+}

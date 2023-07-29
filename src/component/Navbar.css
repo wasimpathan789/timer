@@ -1,0 +1,52 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 80px;
+  background-color: #008b8b;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, purple 0px 1px 6px -1px,
+    rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.logo {
+  width: 100%;
+}
+.logo > h1 {
+  font-size: 30px;
+  color: white;
+  font-family: "Ysabeau Office", sans-serif;
+  font-weight: 700;
+}
+.navLinks {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 30px;
+}
+.navLinks > li {
+  list-style: none;
+}
+.navLinks > li > a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: "Work Sans", sans-serif;
+}
+
+@media screen and (max-width: 1024px) {
+  .navbar {
+    padding: 10px 15px;
+    gap: 0px;
+  }
+}
+@media screen and (max-width: 640px) {
+  .logo > h1 {
+    font-size: 24px;
+  }
+  .navLinks > li > a {
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,13 @@
+.Hometop {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: red;
+}
+.Hometop > input {
+  /* border: none; */
+  border-top: 2px;
+  padding: 5px 15px;
+}

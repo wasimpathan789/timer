@@ -1,0 +1,102 @@
+/* todoContainer */
+.todoContainer {
+}
+.todoContainerHeadline {
+  font-size: 30px;
+  margin: 20px 0px;
+}
+
+/* todoContainer */
+
+/* todoHeadCotainer  */
+.todoHeadCotainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  border-bottom: 1px solid;
+  padding-bottom: 10px;
+}
+.todoHeadCotainer input {
+  /* border-top: 2px; */
+  padding: 8px 15px;
+  font-size: 16px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  /* width: 50%; */
+}
+.todobtn {
+  background-color: blue;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+}
+.todoStopwatch {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+/* todoHeadCotainer  */
+
+/* todoListContainer */
+.todoListContainer {
+  border: 1px solid;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 30px;
+  gap: 30px;
+}
+.todoListContainerLeft {
+  width: 60%;
+}
+.todoListContainer h3 {
+  font-size: 16px;
+  font-weight: 500;
+}
+.todoListContainerRight {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.todoListTime {
+  width: 100%;
+}
+.todoListDelete {
+}
+/* todoListContainer */
+
+@media screen and (max-width: 1024px) {
+  .todoListContainer {
+    padding: 10px 10px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .todoHeadCotainer {
+    flex-direction: column;
+    gap: 15px;
+    /* width: 100%; */
+    padding: 10px;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .todoHeadCotainer input {
+    width: 90%;
+  }
+  .todoContainer {
+    padding: 0;
+
+    width: 100%;
+  }
+}
